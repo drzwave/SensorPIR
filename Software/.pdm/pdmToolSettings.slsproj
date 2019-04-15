@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="pdmToolSettings" propertyScope="project">
+  <configuration name="release" stockConfigCompatibility="com.silabs.ss.framework.project.toolchain.core.release">
+    <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base" optionId="gnu.c.compiler.option.optimization.level" value="gnu.c.optimization.level.more"/>
+  </configuration>
+  <configuration name="debug" stockConfigCompatibility="com.silabs.ss.framework.project.toolchain.core.debug">
+    <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base" optionId="gnu.c.compiler.option.optimization.level" value="gnu.c.optimization.level.none"/>
+  </configuration>
+</project>

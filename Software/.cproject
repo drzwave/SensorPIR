@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.debug#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.debug#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904" moduleId="org.eclipse.cdt.core.settings" name="GNU ARM v7.2.1 - Debug">
+				<macros>
+					<stringMacro name="StudioSdkPath" type="VALUE_PATH_DIR" value="${StudioSdkPathFromID:com.silabs.sdk.stack.zwave:7.11.0.0_-1191262325}"/>
+					<stringMacro name="StudioToolchainPath" type="VALUE_PATH_DIR" value="${StudioToolchainPathFromID:com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904}"/>
+				</macros>
+				<externalSettings/>
+				<extensions>
+					<extension id="com.silabs.ss.framework.debugger.core.HEX" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.silabs.ss.framework.debugger.core.EBL" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.silabs.ss.framework.debugger.core.GBL" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.silabs.ss.framework.debugger.core.BIN" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.silabs.ss.framework.debugger.core.S37" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule buildConfig.needsApplyStock="true" buildConfig.stockConfigId="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.debug#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904" cppBuildConfig.builtinIncludes="studio:/sdk/ZAF/ApplicationUtilities/EventHandling/ studio:/sdk/ZAF/ApplicationUtilities/_commonIF/ studio:/sdk/ZAF/ApplicationUtilities/PowerManagement/ studio:/sdk/ZAF/ApplicationUtilities/TrueStatusEngine/ studio:/sdk/ZAF/ApplicationUtilities/ studio:/sdk/ZAF/CommandClasses/Association/ studio:/sdk/ZAF/CommandClasses/Basic/ studio:/sdk/ZAF/CommandClasses/Battery/ studio:/sdk/ZAF/CommandClasses/Common/ studio:/sdk/ZAF/CommandClasses/DeviceResetLocally/ studio:/sdk/ZAF/CommandClasses/FirmwareUpdate/ studio:/sdk/ZAF/CommandClasses/Indicator/ studio:/sdk/ZAF/CommandClasses/MultiChan/ studio:/sdk/ZAF/CommandClasses/ManufacturerSpecific/ studio:/sdk/ZAF/CommandClasses/Notification/ studio:/sdk/ZAF/CommandClasses/PowerLevel/ studio:/sdk/ZAF/CommandClasses/Supervision/ studio:/sdk/ZAF/CommandClasses/Version/ studio:/sdk/ZAF/CommandClasses/WakeUp/ studio:/sdk/ZAF/CommandClasses/ZWavePlusInfo/ studio:/sdk/ZAF/ApplicationUtilities/EventHandling/ studio:/sdk/ZAF/ApplicationUtilities/_commonIF/ studio:/sdk/ZAF/ApplicationUtilities/PowerManagement/ studio:/sdk/ZAF/ApplicationUtilities/TrueStatusEngine/ studio:/sdk/ZAF/ApplicationUtilities/ studio:/sdk/ZAF/CommandClasses/Association/ studio:/sdk/ZAF/CommandClasses/Basic/ studio:/sdk/ZAF/CommandClasses/Battery/ studio:/sdk/ZAF/CommandClasses/Common/ studio:/sdk/ZAF/CommandClasses/DeviceResetLocally/ studio:/sdk/ZAF/CommandClasses/FirmwareUpdate/ studio:/sdk/ZAF/CommandClasses/Indicator/ studio:/sdk/ZAF/CommandClasses/MultiChan/ studio:/sdk/ZAF/CommandClasses/ManufacturerSpecific/ studio:/sdk/ZAF/CommandClasses/Notification/ studio:/sdk/ZAF/CommandClasses/PowerLevel/ studio:/sdk/ZAF/CommandClasses/Supervision/ studio:/sdk/ZAF/CommandClasses/Version/ studio:/sdk/ZAF/CommandClasses/WakeUp/ studio:/sdk/ZAF/CommandClasses/ZWavePlusInfo/" cppBuildConfig.builtinLibraryFiles="" cppBuildConfig.builtinLibraryNames="" cppBuildConfig.builtinLibraryObjects="" cppBuildConfig.builtinLibraryPaths="" cppBuildConfig.builtinMacros="" moduleId="com.silabs.ss.framework.ide.project.core.cpp" projectCommon.referencedModules="[{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;ZAF_CommandClasses_MultiChan/multichannel.c&quot;,&quot;ZAF_CommandClasses_MultiChan/CC_MultiChan.c&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.CommandClasses.MultiChan\&quot;&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_MultiChan/CC_MultiChan.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_MultiChan/multichannel.c\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;ZAF_CommandClasses_PowerLevel/CC_PowerLevel.c&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.CommandClasses.PowerLevel\&quot;&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_PowerLevel/CC_PowerLevel.c\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;pdmToolSettings\&quot; pdm=\&quot;true\&quot;/&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.ApplicationUtilities.PowerManagement\&quot;&gt;\r\n  &lt;exclusions pattern=\&quot;.*\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;ZAF_CommandClasses_DeviceResetLocally/CC_DeviceResetLocally.c&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.CommandClasses.DeviceResetLocally\&quot;&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_DeviceResetLocally/CC_DeviceResetLocally.c\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;ZAF_CommandClasses_ManufacturerSpecific/CC_ManufacturerSpecific.c&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.CommandClasses.ManufacturerSpecific\&quot;&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_ManufacturerSpecific/CC_ManufacturerSpecific.c\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;ZAF_CommandClasses_Basic/CC_BasicController.c&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.CommandClasses.Basic\&quot;&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_Basic/CC_BasicController.c\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;ZAF_CommandClasses_Supervision/CC_Supervision.c&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.CommandClasses.Supervision\&quot;&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_Supervision/CC_Supervision.c\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.CommandClasses.Common\&quot;&gt;\r\n  &lt;exclusions pattern=\&quot;.*\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;ZAF_CommandClasses_FirmwareUpdate/ota_util.c&quot;,&quot;ZAF_CommandClasses_FirmwareUpdate/CC_FirmwareUpdate.c&quot;,&quot;ZAF_CommandClasses_FirmwareUpdate/CC_FirmwareUpdate.h&quot;,&quot;ZAF_CommandClasses_FirmwareUpdate/ota_util.h&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.CommandClasses.FirmwareUpdate\&quot;&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_FirmwareUpdate/CC_FirmwareUpdate.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_FirmwareUpdate/CC_FirmwareUpdate.h\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_FirmwareUpdate/ota_util.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_FirmwareUpdate/ota_util.h\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;ZAF_ApplicationUtilities/ZAF_app_version.c&quot;,&quot;ZAF_ApplicationUtilities/ZAF_command_class_utils.c&quot;,&quot;ZAF_ApplicationUtilities/ZAF_app_version.h&quot;,&quot;ZAF_ApplicationUtilities/application_properties.c&quot;,&quot;ZAF_ApplicationUtilities/board.c&quot;,&quot;ZAF_ApplicationUtilities/ZAF_adc.c&quot;,&quot;ZAF_ApplicationUtilities/board_BRD420x.c&quot;,&quot;ZAF_ApplicationUtilities/ZAF_CmdPublisher.c&quot;,&quot;ZAF_ApplicationUtilities/ZW_TransportEndpoint.c&quot;,&quot;ZAF_ApplicationUtilities/ZW_TransportSecProtocol.c&quot;,&quot;ZAF_ApplicationUtilities/ZAF_network_learn.c&quot;,&quot;ZAF_ApplicationUtilities/ZW_TransportMulticast.c&quot;,&quot;ZAF_ApplicationUtilities/board_indicator.c&quot;,&quot;ZAF_ApplicationUtilities/ZAF_nvm3_app.c&quot;,&quot;ZAF_ApplicationUtilities/ZAF_tx_mutex.c&quot;,&quot;ZAF_ApplicationUtilities/AppTimer.c&quot;,&quot;ZAF_ApplicationUtilities/ZAF_uart_utils.c&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.ApplicationUtilities\&quot;&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/ZAF_adc.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/ZAF_nvm3_app.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/ZAF_uart_utils.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/AppTimer.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/ZAF_network_learn.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/ZAF_CmdPublisher.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/ZAF_app_version.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/ZAF_app_version.h\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/ZAF_command_class_utils.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/ZW_TransportEndpoint.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/ZW_TransportMulticast.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/ZW_TransportSecProtocol.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/ZAF_tx_mutex.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/board.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/board_BRD420x.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/board_indicator.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/application_properties.c\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;ZAF_CommandClasses_Battery/CC_Battery.c&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.CommandClasses.Battery\&quot;&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_Battery/CC_Battery.c\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.ApplicationUtilities.commonIF\&quot;&gt;\r\n  &lt;exclusions pattern=\&quot;.*\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;ZAF_CommandClasses_WakeUp/CC_WakeUp.c&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.CommandClasses.WakeUp\&quot;&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_WakeUp/CC_WakeUp.c\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;ZAF_CommandClasses_Association/CC_MultiChanAssociation.c&quot;,&quot;ZAF_CommandClasses_Association/CC_AssociationGroupInfo.c&quot;,&quot;ZAF_CommandClasses_Association/CC_Association.c&quot;,&quot;ZAF_CommandClasses_Association/agi.c&quot;,&quot;ZAF_CommandClasses_Association/association_plus.c&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.CommandClasses.Association\&quot;&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_Association/CC_Association.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_Association/CC_AssociationGroupInfo.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_Association/CC_MultiChanAssociation.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_Association/agi.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_Association/association_plus.c\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;ZAF_ApplicationUtilities_TrueStatusEngine/ZAF_TSE.h&quot;,&quot;ZAF_ApplicationUtilities_TrueStatusEngine/ZAF_TSE.c&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.ApplicationUtilities.TrueStatusEngine\&quot;&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities_TrueStatusEngine/ZAF_TSE.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities_TrueStatusEngine/ZAF_TSE.h\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.ApplicationUtilities.EventHandling\&quot;&gt;\r\n  &lt;exclusions pattern=\&quot;.*\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;keys/sample_encrypt.key&quot;,&quot;keys/sample_sign.key&quot;,&quot;keys/sample_sign.key.pub&quot;,&quot;keys/readme.txt&quot;,&quot;keys/sample_sign.key-tokens.txt&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.appsign\&quot;/&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.CommandClasses.Version\&quot;&gt;\r\n  &lt;exclusions pattern=\&quot;.*\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;ZAF_CommandClasses_Indicator/CC_Indicator.c&quot;,&quot;ZAF_CommandClasses_Indicator/CC_Indicator.h&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.CommandClasses.Indicator\&quot;&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_Indicator/CC_Indicator.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_Indicator/CC_Indicator.h\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;ZAF_CommandClasses_ZWavePlusInfo/CC_ZWavePlusInfo.c&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.CommandClasses.ZWavePlusInfo\&quot;&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_ZWavePlusInfo/CC_ZWavePlusInfo.c\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;ZAF_CommandClasses_Notification/notification.c&quot;,&quot;ZAF_CommandClasses_Notification/CC_Notification.c&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.CommandClasses.Notification\&quot;&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_Notification/CC_Notification.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_Notification/notification.c\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;pdmMacroDefinitions\&quot; pdm=\&quot;true\&quot;/&gt;&quot;}]" projectCommon.toolchainId="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904"/>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" description="" id="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.debug#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904" name="GNU ARM v7.2.1 - Debug" parent="com.silabs.ide.si32.gcc.cdt.managedbuild.config.gnu.exe" postbuildStep="&quot;${CommanderAdapterPackPath}&quot; gbl create &quot;${BuildArtifactFileBaseName}.gbl&quot; --app &quot;${BuildArtifactFileBaseName}.hex&quot; --sign &quot;${StudioSdkPath}/BootLoader/sample-keys/sample_sign.key&quot; --encrypt  &quot;${StudioSdkPath}/BootLoader/sample-keys/sample_encrypt.key&quot;  --compress lz4">
+					<folderInfo id="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.debug#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904." name="/" resourcePath="">
+						<toolChain id="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.exe.1209182327" name="Si32 GNU ARM" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.exe">
+							<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.debug.level.37869504" name="Debug Level" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.debug.level" value="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.debug.level.default" valueType="enumerated"/>
+							<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.usescript.830707343" name="Use custom linker script" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.usescript" value="true" valueType="boolean"/>
+							<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.script.1025687562" name="Linker Script:" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.script" value="${StudioSdkPath}/platform/Device/SiliconLabs/EFR32FG13P/Source/GCC/efr32fg13p-zw700.ld" valueType="string"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.GNU_ELF;com.silabs.ss.framework.debugger.core.BIN;com.silabs.ss.framework.debugger.core.HEX;com.silabs.ss.framework.debugger.core.S37;com.silabs.ss.framework.debugger.core.EBL;com.silabs.ss.framework.debugger.core.GBL" id="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.platform.base.477909551" isAbstract="false" name="Debug Platform" osList="win32,linux,macosx" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.platform.base"/>
+							<builder buildPath="${workspace_loc:/SensorPIR_2}/GNU ARM v7.2.1 - Debug" id="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.builder.base.1378343412" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Si32 GNU ARM Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.builder.base"/>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base.818670011" name="GNU ARM C Compiler" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base">
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.def.symbols.190765158" name="Defined symbols (-D)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="ZAF_BUILD_NO=0xAABB"/>
+									<listOptionValue builtIn="false" value="ZAF_VERSION_MAJOR=10"/>
+									<listOptionValue builtIn="false" value="ZAF_VERSION_MINOR=11"/>
+									<listOptionValue builtIn="false" value="ZAF_VERSION_PATCH=0"/>
+									<listOptionValue builtIn="false" value="SDK_VERSION_MAJOR=7"/>
+									<listOptionValue builtIn="false" value="SDK_VERSION_MINOR=11"/>
+									<listOptionValue builtIn="false" value="SDK_VERSION_PATCH=1"/>
+									<listOptionValue builtIn="false" value="ZGM130S037HGN1=1"/>
+									<listOptionValue builtIn="false" value="EFR32FG13P231F512GM48=1"/>
+									<listOptionValue builtIn="false" value="EFR32FG=1"/>
+									<listOptionValue builtIn="false" value="ZW_SLAVE_ENHANCED_232=1"/>
+									<listOptionValue builtIn="false" value="ZW_SLAVE=1"/>
+									<listOptionValue builtIn="false" value="RADIO_BOARD_ZGM130S=1"/>
+									<listOptionValue builtIn="false" value="EXT_BOARD_8029A=1"/>
+									<listOptionValue builtIn="false" value="DISABLE_USART1=1"/>
+									<listOptionValue builtIn="false" value="DEBUG=1"/>
+								</option>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.debug.builtin.1990364487" name="Always branch to builtin functions (-fno-builtin)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.debug.builtin" value="true" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.optimization.level.593580045" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" value="gnu.c.optimization.level.none" valueType="enumerated"/>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.debug.prolog.1903191338" name="Generate debugger-friendly prologs (-mno-sched-prolog)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.debug.prolog" value="true" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.include.paths.1574644153" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZWave/API&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/bootloader&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/bootloader/api&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/bootloader/core&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/CMSIS/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/Device/SiliconLabs/EFR32FG13P/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/emlib/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/emdrv/gpiointerrupt/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/emdrv/sleep/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/halconfig/inc/hal-config&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/util/third_party/freertos/Source/portable/GCC/ARM_CM4F&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/emdrv/nvm3/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/emdrv/common/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/hardware/kit/common/bsp&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/hardware/kit/common/halconfig&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Components/QueueNotifying&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Components/SwTimer&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Components/CRC&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Components/EventDistributor&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Components/DebugPrint&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Components/Assert&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Components/Utils&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Components/SyncEvent&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Drivers/zw700&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Processor/gecko&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Processor/gecko/hal-config&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}//ThirdParty/Freertos/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}//ThirdParty/Freertos/include/gecko&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/ApplicationUtilities/EventHandling&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/ApplicationUtilities/_commonIF&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/ApplicationUtilities/PowerManagement&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/ApplicationUtilities/TrueStatusEngine&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/ApplicationUtilities&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/Association&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/Basic&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/Battery&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/Common&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/DeviceResetLocally&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/FirmwareUpdate&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/Indicator&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/MultiChan&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/ManufacturerSpecific&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/Notification&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/PowerLevel&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/Supervision&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/Version&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/WakeUp&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/ZWavePlusInfo&quot;"/>
+								</option>
+								<inputType id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.input.1532862534" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base.473313981" name="GNU ARM C++ Compiler" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base">
+								<option id="gnu.cpp.compiler.option.optimization.level.1128851377" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.debug.builtin.1450571101" name="Always branch to builtin functions (-fno-builtin)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.debug.builtin" value="true" valueType="boolean"/>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.debug.prolog.1904884775" name="Generate debugger-friendly prologs (-mno-sched-prolog)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.debug.prolog" value="true" valueType="boolean"/>
+							</tool>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.base.1050863017" name="GNU ARM Assembler" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.base">
+								<option id="gnu.both.asm.option.include.paths.1443694583" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZWave/API&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/bootloader&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/bootloader/api&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/bootloader/core&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/CMSIS/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/Device/SiliconLabs/EFR32FG13P/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/emlib/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/emdrv/gpiointerrupt/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/emdrv/sleep/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/halconfig/inc/hal-config&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/util/third_party/freertos/Source/portable/GCC/ARM_CM4F&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/emdrv/nvm3/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/emdrv/common/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/hardware/kit/common/bsp&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/hardware/kit/common/halconfig&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Components/QueueNotifying&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Components/SwTimer&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Components/CRC&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Components/EventDistributor&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Components/DebugPrint&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Components/Assert&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Components/Utils&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Components/SyncEvent&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Drivers/zw700&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Processor/gecko&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Processor/gecko/hal-config&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}//ThirdParty/Freertos/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}//ThirdParty/Freertos/include/gecko&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/ApplicationUtilities/EventHandling&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/ApplicationUtilities/_commonIF&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/ApplicationUtilities/PowerManagement&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/ApplicationUtilities/TrueStatusEngine&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/ApplicationUtilities&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/Association&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/Basic&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/Battery&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/Common&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/DeviceResetLocally&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/FirmwareUpdate&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/Indicator&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/MultiChan&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/ManufacturerSpecific&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/Notification&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/PowerLevel&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/Supervision&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/Version&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/WakeUp&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/ZWavePlusInfo&quot;"/>
+								</option>
+								<inputType id="org.eclipse.cdt.core.asmSource.1705862486" superClass="org.eclipse.cdt.core.asmSource"/>
+							</tool>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base.205110001" name="GNU ARM C Linker" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base">
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.nostdlibs.1958037446" name="No startup or default libs (-nostdlib)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.nostdlibs" value="false" valueType="boolean"/>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.circulardependency.1966208863" name="Use library file circular dependency" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.circulardependency" value="true" valueType="boolean"/>
+								<option id="gnu.c.link.option.paths.1664559657" name="Library search path (-L)" superClass="gnu.c.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZWave/lib/&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/SubTree/rail-import/platform/radio/rail_lib/autogen/librail_release/&quot;"/>
+								</option>
+								<option id="gnu.c.link.option.libs.1454814133" name="Libraries (-l)" superClass="gnu.c.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="ZWaveSlave"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="rail_efr32xg13_gcc_release"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.530438046" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.base.1997437276" name="GNU ARM C++ Linker" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.base">
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.nostdlibs.1061329093" name="No startup or default libs (-nostdlib)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.nostdlibs" value="false" valueType="boolean"/>
+							</tool>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.archiver.base.1968986411" name="GNU ARM Archiver" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.archiver.base"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="ZAF_ApplicationUtilities/_commonIF|ZAF_ApplicationUtilities/TrueStatusEngine|ZAF_ApplicationUtilities/PowerManagement|ZAF_ApplicationUtilities/EventHandling" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.release#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.release#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904" moduleId="org.eclipse.cdt.core.settings" name="GNU ARM v7.2.1 - Release">
+				<macros>
+					<stringMacro name="StudioSdkPath" type="VALUE_PATH_DIR" value="${StudioSdkPathFromID:com.silabs.sdk.stack.zwave:7.11.0.0_-1191262325}"/>
+					<stringMacro name="StudioToolchainPath" type="VALUE_PATH_DIR" value="${StudioToolchainPathFromID:com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904}"/>
+				</macros>
+				<externalSettings/>
+				<extensions>
+					<extension id="com.silabs.ss.framework.debugger.core.HEX" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.silabs.ss.framework.debugger.core.EBL" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.silabs.ss.framework.debugger.core.GBL" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.silabs.ss.framework.debugger.core.BIN" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.silabs.ss.framework.debugger.core.S37" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule buildConfig.needsApplyStock="true" buildConfig.stockConfigId="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.release#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904" cppBuildConfig.builtinIncludes="studio:/sdk/ZAF/ApplicationUtilities/EventHandling/ studio:/sdk/ZAF/ApplicationUtilities/_commonIF/ studio:/sdk/ZAF/ApplicationUtilities/PowerManagement/ studio:/sdk/ZAF/ApplicationUtilities/TrueStatusEngine/ studio:/sdk/ZAF/ApplicationUtilities/ studio:/sdk/ZAF/CommandClasses/Association/ studio:/sdk/ZAF/CommandClasses/Basic/ studio:/sdk/ZAF/CommandClasses/Battery/ studio:/sdk/ZAF/CommandClasses/Common/ studio:/sdk/ZAF/CommandClasses/DeviceResetLocally/ studio:/sdk/ZAF/CommandClasses/FirmwareUpdate/ studio:/sdk/ZAF/CommandClasses/Indicator/ studio:/sdk/ZAF/CommandClasses/MultiChan/ studio:/sdk/ZAF/CommandClasses/ManufacturerSpecific/ studio:/sdk/ZAF/CommandClasses/Notification/ studio:/sdk/ZAF/CommandClasses/PowerLevel/ studio:/sdk/ZAF/CommandClasses/Supervision/ studio:/sdk/ZAF/CommandClasses/Version/ studio:/sdk/ZAF/CommandClasses/WakeUp/ studio:/sdk/ZAF/CommandClasses/ZWavePlusInfo/ studio:/sdk/ZAF/ApplicationUtilities/EventHandling/ studio:/sdk/ZAF/ApplicationUtilities/_commonIF/ studio:/sdk/ZAF/ApplicationUtilities/PowerManagement/ studio:/sdk/ZAF/ApplicationUtilities/TrueStatusEngine/ studio:/sdk/ZAF/ApplicationUtilities/ studio:/sdk/ZAF/CommandClasses/Association/ studio:/sdk/ZAF/CommandClasses/Basic/ studio:/sdk/ZAF/CommandClasses/Battery/ studio:/sdk/ZAF/CommandClasses/Common/ studio:/sdk/ZAF/CommandClasses/DeviceResetLocally/ studio:/sdk/ZAF/CommandClasses/FirmwareUpdate/ studio:/sdk/ZAF/CommandClasses/Indicator/ studio:/sdk/ZAF/CommandClasses/MultiChan/ studio:/sdk/ZAF/CommandClasses/ManufacturerSpecific/ studio:/sdk/ZAF/CommandClasses/Notification/ studio:/sdk/ZAF/CommandClasses/PowerLevel/ studio:/sdk/ZAF/CommandClasses/Supervision/ studio:/sdk/ZAF/CommandClasses/Version/ studio:/sdk/ZAF/CommandClasses/WakeUp/ studio:/sdk/ZAF/CommandClasses/ZWavePlusInfo/" cppBuildConfig.builtinLibraryFiles="" cppBuildConfig.builtinLibraryNames="" cppBuildConfig.builtinLibraryObjects="" cppBuildConfig.builtinLibraryPaths="" cppBuildConfig.builtinMacros="NO_DEBUGPRINT" moduleId="com.silabs.ss.framework.ide.project.core.cpp" projectCommon.referencedModules="[{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.CommandClasses.Version\&quot;&gt;\r\n  &lt;exclusions pattern=\&quot;.*\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;ZAF_CommandClasses_MultiChan/multichannel.c&quot;,&quot;ZAF_CommandClasses_MultiChan/CC_MultiChan.c&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.CommandClasses.MultiChan\&quot;&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_MultiChan/CC_MultiChan.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_MultiChan/multichannel.c\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;ZAF_CommandClasses_Basic/CC_BasicController.c&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.CommandClasses.Basic\&quot;&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_Basic/CC_BasicController.c\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;ZAF_CommandClasses_Notification/notification.c&quot;,&quot;ZAF_CommandClasses_Notification/CC_Notification.c&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.CommandClasses.Notification\&quot;&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_Notification/CC_Notification.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_Notification/notification.c\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;ZAF_CommandClasses_Association/CC_MultiChanAssociation.c&quot;,&quot;ZAF_CommandClasses_Association/CC_AssociationGroupInfo.c&quot;,&quot;ZAF_CommandClasses_Association/CC_Association.c&quot;,&quot;ZAF_CommandClasses_Association/agi.c&quot;,&quot;ZAF_CommandClasses_Association/association_plus.c&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.CommandClasses.Association\&quot;&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_Association/CC_Association.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_Association/CC_AssociationGroupInfo.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_Association/CC_MultiChanAssociation.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_Association/agi.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_Association/association_plus.c\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;keys/sample_encrypt.key&quot;,&quot;keys/sample_sign.key&quot;,&quot;keys/sample_sign.key.pub&quot;,&quot;keys/readme.txt&quot;,&quot;keys/sample_sign.key-tokens.txt&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.appsign\&quot;/&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;ZAF_CommandClasses_PowerLevel/CC_PowerLevel.c&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.CommandClasses.PowerLevel\&quot;&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_PowerLevel/CC_PowerLevel.c\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;ZAF_CommandClasses_WakeUp/CC_WakeUp.c&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.CommandClasses.WakeUp\&quot;&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_WakeUp/CC_WakeUp.c\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;ZAF_CommandClasses_DeviceResetLocally/CC_DeviceResetLocally.c&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.CommandClasses.DeviceResetLocally\&quot;&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_DeviceResetLocally/CC_DeviceResetLocally.c\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.ApplicationUtilities.EventHandling\&quot;&gt;\r\n  &lt;exclusions pattern=\&quot;.*\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.ApplicationUtilities.PowerManagement\&quot;&gt;\r\n  &lt;exclusions pattern=\&quot;.*\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;ZAF_CommandClasses_ManufacturerSpecific/CC_ManufacturerSpecific.c&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.CommandClasses.ManufacturerSpecific\&quot;&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_ManufacturerSpecific/CC_ManufacturerSpecific.c\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;ZAF_CommandClasses_Indicator/CC_Indicator.c&quot;,&quot;ZAF_CommandClasses_Indicator/CC_Indicator.h&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.CommandClasses.Indicator\&quot;&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_Indicator/CC_Indicator.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_Indicator/CC_Indicator.h\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;pdmToolSettings\&quot; pdm=\&quot;true\&quot;/&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;ZAF_CommandClasses_Battery/CC_Battery.c&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.CommandClasses.Battery\&quot;&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_Battery/CC_Battery.c\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;ZAF_ApplicationUtilities_TrueStatusEngine/ZAF_TSE.h&quot;,&quot;ZAF_ApplicationUtilities_TrueStatusEngine/ZAF_TSE.c&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.ApplicationUtilities.TrueStatusEngine\&quot;&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities_TrueStatusEngine/ZAF_TSE.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities_TrueStatusEngine/ZAF_TSE.h\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;pdmMacroDefinitions\&quot; pdm=\&quot;true\&quot;/&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.CommandClasses.Common\&quot;&gt;\r\n  &lt;exclusions pattern=\&quot;.*\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.ApplicationUtilities.commonIF\&quot;&gt;\r\n  &lt;exclusions pattern=\&quot;.*\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;ZAF_CommandClasses_ZWavePlusInfo/CC_ZWavePlusInfo.c&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.CommandClasses.ZWavePlusInfo\&quot;&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_ZWavePlusInfo/CC_ZWavePlusInfo.c\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;ZAF_CommandClasses_Supervision/CC_Supervision.c&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.CommandClasses.Supervision\&quot;&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_Supervision/CC_Supervision.c\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;ZAF_ApplicationUtilities/ZAF_app_version.c&quot;,&quot;ZAF_ApplicationUtilities/ZAF_command_class_utils.c&quot;,&quot;ZAF_ApplicationUtilities/ZAF_app_version.h&quot;,&quot;ZAF_ApplicationUtilities/application_properties.c&quot;,&quot;ZAF_ApplicationUtilities/board.c&quot;,&quot;ZAF_ApplicationUtilities/ZAF_adc.c&quot;,&quot;ZAF_ApplicationUtilities/board_BRD420x.c&quot;,&quot;ZAF_ApplicationUtilities/ZAF_CmdPublisher.c&quot;,&quot;ZAF_ApplicationUtilities/ZW_TransportEndpoint.c&quot;,&quot;ZAF_ApplicationUtilities/ZW_TransportSecProtocol.c&quot;,&quot;ZAF_ApplicationUtilities/ZAF_network_learn.c&quot;,&quot;ZAF_ApplicationUtilities/ZW_TransportMulticast.c&quot;,&quot;ZAF_ApplicationUtilities/board_indicator.c&quot;,&quot;ZAF_ApplicationUtilities/ZAF_nvm3_app.c&quot;,&quot;ZAF_ApplicationUtilities/ZAF_tx_mutex.c&quot;,&quot;ZAF_ApplicationUtilities/AppTimer.c&quot;,&quot;ZAF_ApplicationUtilities/ZAF_uart_utils.c&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.ApplicationUtilities\&quot;&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/ZAF_adc.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/ZAF_nvm3_app.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/ZAF_uart_utils.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/AppTimer.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/ZAF_network_learn.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/ZAF_CmdPublisher.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/ZAF_app_version.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/ZAF_app_version.h\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/ZAF_command_class_utils.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/ZW_TransportEndpoint.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/ZW_TransportMulticast.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/ZW_TransportSecProtocol.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/ZAF_tx_mutex.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/board.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/board_BRD420x.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/board_indicator.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_ApplicationUtilities/application_properties.c\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;ZAF_CommandClasses_FirmwareUpdate/ota_util.c&quot;,&quot;ZAF_CommandClasses_FirmwareUpdate/CC_FirmwareUpdate.c&quot;,&quot;ZAF_CommandClasses_FirmwareUpdate/CC_FirmwareUpdate.h&quot;,&quot;ZAF_CommandClasses_FirmwareUpdate/ota_util.h&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.zwave.ZAF.CommandClasses.FirmwareUpdate\&quot;&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_FirmwareUpdate/CC_FirmwareUpdate.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_FirmwareUpdate/CC_FirmwareUpdate.h\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_FirmwareUpdate/ota_util.c\&quot;/&gt;\r\n  &lt;inclusions pattern=\&quot;ZAF_CommandClasses_FirmwareUpdate/ota_util.h\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;}]" projectCommon.toolchainId="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904"/>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" description="" id="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.release#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904" name="GNU ARM v7.2.1 - Release" parent="com.silabs.ide.si32.gcc.cdt.managedbuild.config.gnu.exe" postbuildStep="&quot;${CommanderAdapterPackPath}&quot; gbl create &quot;${BuildArtifactFileBaseName}.gbl&quot; --app &quot;${BuildArtifactFileBaseName}.hex&quot; --sign &quot;${StudioSdkPath}/BootLoader/sample-keys/sample_sign.key&quot; --encrypt  &quot;${StudioSdkPath}/BootLoader/sample-keys/sample_encrypt.key&quot;  --compress lz4">
+					<folderInfo id="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.release#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904." name="/" resourcePath="">
+						<toolChain id="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.exe.2126419500" name="Si32 GNU ARM" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.exe">
+							<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.debug.level.6581632" name="Debug Level" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.debug.level" value="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.debug.level.default" valueType="enumerated"/>
+							<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.usescript.793069988" name="Use custom linker script" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.usescript" value="true" valueType="boolean"/>
+							<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.script.286858531" name="Linker Script:" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.script" value="${StudioSdkPath}/platform/Device/SiliconLabs/EFR32FG13P/Source/GCC/efr32fg13p-zw700.ld" valueType="string"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.GNU_ELF;com.silabs.ss.framework.debugger.core.BIN;com.silabs.ss.framework.debugger.core.HEX;com.silabs.ss.framework.debugger.core.S37;com.silabs.ss.framework.debugger.core.EBL;com.silabs.ss.framework.debugger.core.GBL" id="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.platform.base.1235404148" isAbstract="false" name="Debug Platform" osList="win32,linux,macosx" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.platform.base"/>
+							<builder buildPath="${workspace_loc:/SensorPIR_2}/GNU ARM v7.2.1 - Release" id="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.builder.base.674652932" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Si32 GNU ARM Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.builder.base"/>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base.1495365584" name="GNU ARM C Compiler" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base">
+								<option id="gnu.c.compiler.option.optimization.level.2130927156" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" value="gnu.c.optimization.level.more" valueType="enumerated"/>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.def.symbols.1770307801" name="Defined symbols (-D)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="ZAF_BUILD_NO=0xAABB"/>
+									<listOptionValue builtIn="false" value="ZAF_VERSION_MAJOR=10"/>
+									<listOptionValue builtIn="false" value="ZAF_VERSION_MINOR=11"/>
+									<listOptionValue builtIn="false" value="ZAF_VERSION_PATCH=0"/>
+									<listOptionValue builtIn="false" value="SDK_VERSION_MAJOR=7"/>
+									<listOptionValue builtIn="false" value="SDK_VERSION_MINOR=11"/>
+									<listOptionValue builtIn="false" value="SDK_VERSION_PATCH=1"/>
+									<listOptionValue builtIn="false" value="ZGM130S037HGN1=1"/>
+									<listOptionValue builtIn="false" value="EFR32FG13P231F512GM48=1"/>
+									<listOptionValue builtIn="false" value="EFR32FG=1"/>
+									<listOptionValue builtIn="false" value="ZW_SLAVE_ENHANCED_232=1"/>
+									<listOptionValue builtIn="false" value="ZW_SLAVE=1"/>
+									<listOptionValue builtIn="false" value="RADIO_BOARD_ZGM130S=1"/>
+									<listOptionValue builtIn="false" value="EXT_BOARD_8029A=1"/>
+									<listOptionValue builtIn="false" value="DISABLE_USART1=1"/>
+									<listOptionValue builtIn="false" value="NO_DEBUGPRINT=1"/>
+									<listOptionValue builtIn="false" value="NDEBUG=1"/>
+								</option>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.debug.builtin.2111748535" name="Always branch to builtin functions (-fno-builtin)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.debug.builtin" value="false" valueType="boolean"/>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.debug.prolog.738615080" name="Generate debugger-friendly prologs (-mno-sched-prolog)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.debug.prolog" value="false" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.include.paths.1567282887" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZWave/API&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/bootloader&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/bootloader/api&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/bootloader/core&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/CMSIS/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/Device/SiliconLabs/EFR32FG13P/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/emlib/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/emdrv/gpiointerrupt/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/emdrv/sleep/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/halconfig/inc/hal-config&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/util/third_party/freertos/Source/portable/GCC/ARM_CM4F&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/emdrv/nvm3/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/emdrv/common/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/hardware/kit/common/bsp&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/hardware/kit/common/halconfig&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Components/QueueNotifying&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Components/SwTimer&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Components/CRC&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Components/EventDistributor&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Components/DebugPrint&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Components/Assert&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Components/Utils&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Components/SyncEvent&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Drivers/zw700&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Processor/gecko&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Processor/gecko/hal-config&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}//ThirdParty/Freertos/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}//ThirdParty/Freertos/include/gecko&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/ApplicationUtilities/EventHandling&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/ApplicationUtilities/_commonIF&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/ApplicationUtilities/PowerManagement&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/ApplicationUtilities/TrueStatusEngine&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/ApplicationUtilities&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/Association&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/Basic&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/Battery&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/Common&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/DeviceResetLocally&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/FirmwareUpdate&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/Indicator&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/MultiChan&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/ManufacturerSpecific&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/Notification&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/PowerLevel&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/Supervision&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/Version&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/WakeUp&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/ZWavePlusInfo&quot;"/>
+								</option>
+								<inputType id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.input.871324109" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base.501027084" name="GNU ARM C++ Compiler" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base">
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.debug.builtin.625826204" name="Always branch to builtin functions (-fno-builtin)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.debug.builtin" value="false" valueType="boolean"/>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.debug.prolog.1768286136" name="Generate debugger-friendly prologs (-mno-sched-prolog)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.debug.prolog" value="false" valueType="boolean"/>
+							</tool>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.base.1086274458" name="GNU ARM Assembler" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.base">
+								<option id="gnu.both.asm.option.include.paths.2139427762" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZWave/API&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/bootloader&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/bootloader/api&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/bootloader/core&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/CMSIS/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/Device/SiliconLabs/EFR32FG13P/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/emlib/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/emdrv/gpiointerrupt/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/emdrv/sleep/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/halconfig/inc/hal-config&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/util/third_party/freertos/Source/portable/GCC/ARM_CM4F&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/emdrv/nvm3/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/emdrv/common/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/hardware/kit/common/bsp&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/hardware/kit/common/halconfig&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Components/QueueNotifying&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Components/SwTimer&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Components/CRC&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Components/EventDistributor&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Components/DebugPrint&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Components/Assert&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Components/Utils&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Components/SyncEvent&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Drivers/zw700&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Processor/gecko&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Processor/gecko/hal-config&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}//ThirdParty/Freertos/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}//ThirdParty/Freertos/include/gecko&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/ApplicationUtilities/EventHandling&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/ApplicationUtilities/_commonIF&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/ApplicationUtilities/PowerManagement&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/ApplicationUtilities/TrueStatusEngine&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/ApplicationUtilities&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/Association&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/Basic&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/Battery&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/Common&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/DeviceResetLocally&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/FirmwareUpdate&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/Indicator&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/MultiChan&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/ManufacturerSpecific&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/Notification&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/PowerLevel&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/Supervision&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/Version&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/WakeUp&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZAF/CommandClasses/ZWavePlusInfo&quot;"/>
+								</option>
+								<inputType id="org.eclipse.cdt.core.asmSource.1279094960" superClass="org.eclipse.cdt.core.asmSource"/>
+							</tool>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base.2091223783" name="GNU ARM C Linker" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base">
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.nostdlibs.559930303" name="No startup or default libs (-nostdlib)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.nostdlibs" value="false" valueType="boolean"/>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.circulardependency.970459593" name="Use library file circular dependency" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.circulardependency" value="true" valueType="boolean"/>
+								<option id="gnu.c.link.option.paths.1890867683" name="Library search path (-L)" superClass="gnu.c.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/ZWave/lib/&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/SubTree/rail-import/platform/radio/rail_lib/autogen/librail_release/&quot;"/>
+								</option>
+								<option id="gnu.c.link.option.libs.2128660367" name="Libraries (-l)" superClass="gnu.c.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="ZWaveSlave"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="rail_efr32xg13_gcc_release"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.880495693" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.base.409105919" name="GNU ARM C++ Linker" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.base">
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.nostdlibs.224255691" name="No startup or default libs (-nostdlib)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.nostdlibs" value="false" valueType="boolean"/>
+							</tool>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.archiver.base.1833138213" name="GNU ARM Archiver" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.archiver.base"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="ZAF_ApplicationUtilities/_commonIF|ZAF_ApplicationUtilities/TrueStatusEngine|ZAF_ApplicationUtilities/PowerManagement|ZAF_ApplicationUtilities/EventHandling" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="com.silabs.ss.framework.ide.project.core.cpp" projectCommon.boardIds="brd4202a:0.0.0 brd4001a:0.0.0.A01 brd8029a:0.0.0.A00" projectCommon.buildArtifactType="EXE" projectCommon.importModeId="LINK_LIBRARIES" projectCommon.partId="mcu.arm.efr32.zg13.zgm130s037hgn1" projectCommon.sdkId="com.silabs.sdk.stack.zwave:7.11.0.0_-1191262325" projectCommon.toolchainId="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904"/>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="SensorPIR_2.com.silabs.ss.framework.ide.project.core.cdt.cdtMbsProjectType.868831526" name="SLS CDT Project" projectType="com.silabs.ss.framework.ide.project.core.cdt.cdtMbsProjectType"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.debug#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904;com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.debug#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904.;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base.818670011;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.input.1532862534">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.release#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904;com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.release#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904.;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base.1495365584;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.input.871324109">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+</cproject>

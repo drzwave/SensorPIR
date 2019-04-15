@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="pdmMacroDefinitions" propertyScope="project">
+  <configuration name="release" stockConfigCompatibility="com.silabs.ss.framework.project.toolchain.core.release">
+    <macroDefinition languageCompatibility="c cpp" name="NO_DEBUGPRINT" value="1"/>
+  </configuration>
+  <configuration name="debug" stockConfigCompatibility="com.silabs.ss.framework.project.toolchain.core.debug"/>
+</project>
