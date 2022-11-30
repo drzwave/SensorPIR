@@ -49,8 +49,7 @@
 									<listOptionValue builtIn="false" value="ZW_SLAVE=1"/>
 									<listOptionValue builtIn="false" value="RADIO_BOARD_ZGM130S=1"/>
 									<listOptionValue builtIn="false" value="EXT_BOARD_8029A=1"/>
-									<listOptionValue builtIn="false" value="DISABLE_USART1=1"/>
-									<listOptionValue builtIn="false" value="DEBUG=1"/>
+									<listOptionValue builtIn="false" value="DEBUGPRINT=1"/>
 								</option>
 								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.debug.builtin.1990364487" name="Always branch to builtin functions (-fno-builtin)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.debug.builtin" value="true" valueType="boolean"/>
 								<option id="gnu.c.compiler.option.optimization.level.593580045" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" value="gnu.c.optimization.level.none" valueType="enumerated"/>
@@ -410,4 +409,5 @@
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 		</scannerConfigBuildInfo>
 	</storageModule>
+	<storageModule moduleId="refreshScope"/>
 </cproject>

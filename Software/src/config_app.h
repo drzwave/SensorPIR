@@ -18,9 +18,9 @@
  * according to his needs.
  *
  ****************************************************************************/
-#define APP_VERSION ZAF_VERSION_MAJOR
-#define APP_REVISION ZAF_VERSION_MINOR
-#define APP_PATCH ZAF_VERSION_PATCH
+#define APP_VERSION 1
+#define APP_REVISION 0
+#define APP_PATCH 55
 
 /****************************************************************************
  *
@@ -56,9 +56,10 @@
  * Defines used to initialize the Manufacturer Specific Command Class.
  *
  ****************************************************************************/
-#define APP_MANUFACTURER_ID     MFG_ID_ZWAVE
-#define APP_PRODUCT_TYPE_ID     PRODUCT_TYPE_ID_ZWAVE_PLUS_V2
-#define APP_PRODUCT_ID          PRODUCT_ID_SensorPIR
+// These 3 numbers MUST make up a unique 48 bit "fingerprint" that _uniquely_ identifies the product. The values can be anything you want but must be unique.
+#define APP_MANUFACTURER_ID     MFG_ID_EXPRESS_CONTROLS
+#define APP_PRODUCT_TYPE_ID     0x0123
+#define APP_PRODUCT_ID          0x4567
 
 #define APP_FIRMWARE_ID         APP_PRODUCT_ID | (APP_PRODUCT_TYPE_ID << 8)
 

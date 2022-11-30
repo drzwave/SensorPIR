@@ -79,7 +79,7 @@
 /****************************************************************************/
 
 #define PIR_EVENT_BTN        APP_WAKEUP_SLDR_BTN  // We prefer a wakeup enabled slider, but a button will do
-#define BATTERY_REPORT_BTN   APP_BUTTON_A         // This button cannot wake up the device from EM4
+#define BATTERY_REPORT_BTN   APP_BUTTON_A         /* This button cannot wake up the device from EM4 */
                                                   // (i.e. it will generally not work with SensorPIR)
 
 /* Ensure we did not allocate the same physical button to more than one function */
@@ -250,7 +250,7 @@ static const SRadioConfig_t RadioConfig =
   .iListenBeforeTalkThreshold = ELISTENBEFORETALKTRESHOLD_DEFAULT,
   .iTxPowerLevelMax = APP_MAX_TX_POWER,
   .iTxPowerLevelAdjust = APP_MEASURED_0DBM_TX_POWER,
-  .eRegion = APP_FREQ
+  .eRegion = REGION_US
 };
 
 static const SProtocolConfig_t ProtocolConfig = {
